@@ -4,9 +4,9 @@ import matplotlib.pyplot as plt
 from sklearn.neural_network import MLPRegressor
 
 # Reading Source File
-SourceFile = pd.read_excel('//SHAHAB/Shared on Shahab/XRPTrain.xlsx', header=None)  # Reading a Network file
+SourceFile = pd.read_excel('XRPTrain.xlsx', header=None)  # Reading a Network file
 SourceData = SourceFile.to_numpy()
-Test_Data = pd.read_excel('//SHAHAB/Shared on Shahab/XRPTest.xlsx', header=None)
+Test_Data = pd.read_excel('XRPTest.xlsx', header=None)
 Test_Data = np.array(Test_Data)
 
 # Defining Minimum and maximum values for normalizing
